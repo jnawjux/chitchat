@@ -1,7 +1,10 @@
 import os
 import time
 import sys
+import spacy
 from textblob import TextBlob
+
+nlp = spacy.load('en')
 
 bot_template = "BOT : {0}"
 user_template = "USER : {0}"
